@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment
 import com.example.mentalhealth.R
 import com.example.mentalhealth.databinding.FragmentAddPostBinding
 
-class addPostFragment : Fragment(){
+class AddPostFragment : Fragment(){
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,

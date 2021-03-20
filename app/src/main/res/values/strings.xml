@@ -11,4 +11,5 @@
     <string name="add_tag">Add Tag</string>
     <string name="home">Home</string>
     <string name="notification">Notification</string>
+    <string name="menu_challenge">Challenge</string>
 </resources>

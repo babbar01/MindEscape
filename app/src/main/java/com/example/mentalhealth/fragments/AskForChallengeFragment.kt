@@ -6,18 +6,17 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.mentalhealth.R
-import com.example.mentalhealth.databinding.FragmentHomeBinding
+import com.example.mentalhealth.databinding.FragmentAskForChallengeBinding
 
 
-class homeFragment : Fragment() {
-
+class AskForChallengeFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
 
-        val binding = FragmentHomeBinding.inflate(inflater, container, false)
+        val binding = FragmentAskForChallengeBinding.inflate(inflater, container, false)
 
         return binding.root
     }

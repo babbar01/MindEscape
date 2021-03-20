@@ -7,21 +7,21 @@
 
     <fragment
         android:id="@+id/addPostFragment"
-        android:name="com.example.mentalhealth.fragments.addPostFragment"
+        android:name="com.example.mentalhealth.fragments.AddPostFragment"
         android:label="addPostFragment" />
     <fragment
         android:id="@+id/askForChallengeFragment"
-        android:name="com.example.mentalhealth.fragments.askForChallengeFragment"
+        android:name="com.example.mentalhealth.fragments.AskForChallengeFragment"
         android:label="fragment_ask_for_challenge"
         tools:layout="@layout/fragment_ask_for_challenge" />
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.mentalhealth.fragments.homeFragment"
+        android:name="com.example.mentalhealth.fragments.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/notificationFragment"
-        android:name="com.example.mentalhealth.fragments.notificationFragment"
+        android:name="com.example.mentalhealth.fragments.NotificationFragment"
         android:label="fragment_notification"
         tools:layout="@layout/fragment_notification" />
 </navigation>

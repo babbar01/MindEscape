@@ -9,7 +9,7 @@ import com.example.mentalhealth.R
 import com.example.mentalhealth.databinding.FragmentNotificationBinding
 
 
-class notificationFragment : Fragment() {
+class NotificationFragment : Fragment() {
 
 
     override fun onCreateView(

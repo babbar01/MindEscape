@@ -13,7 +13,7 @@
 
     <item
         android:id="@+id/askForChallengeFragment"
-        android:title="Challenge"
+        android:title="@string/menu_challenge"
         android:icon="@drawable/ic_challenge"/>
 
     <item
