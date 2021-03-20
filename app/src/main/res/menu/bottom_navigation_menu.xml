@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/addPostFragment"
+        android:title="Post"
+        android:icon="@drawable/ic_add_post"/>
+
+    <item
+        android:id="@+id/askForChallengeFragment"
+        android:title="Challenge"
+        android:icon="@drawable/ic_challenge"/>
+
+    <item
+        android:id="@+id/notificationFragment"
+        android:title="Notification"
+        android:icon="@drawable/ic_baseline_notifications_24"/>
+
+
+</menu>
