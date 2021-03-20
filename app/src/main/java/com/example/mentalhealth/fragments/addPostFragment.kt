@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.mentalhealth.R
+import com.example.mentalhealth.databinding.FragmentAddPostBinding
 
 class addPostFragment : Fragment(){
     override fun onCreateView(
@@ -14,6 +15,9 @@ class addPostFragment : Fragment(){
         savedInstanceState: Bundle?
     ): View? {
 
-        return inflater.inflate(R.layout.addpost_fragment, container, false)
+        val binding = FragmentAddPostBinding.inflate(inflater, container, false)
+
+        return  binding.root
+
     }
 }

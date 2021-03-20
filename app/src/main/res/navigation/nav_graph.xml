@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/addPostFragment">
 
+    <fragment
+        android:id="@+id/addPostFragment"
+        android:name="com.example.mentalhealth.fragments.addPostFragment"
+        android:label="addPostFragment" />
+    <fragment
+        android:id="@+id/askForChallengeFragment"
+        android:name="com.example.mentalhealth.fragments.askForChallengeFragment"
+        android:label="fragment_ask_for_challenge"
+        tools:layout="@layout/fragment_ask_for_challenge" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.mentalhealth.fragments.homeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.example.mentalhealth.fragments.notificationFragment"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification" />
 </navigation>
